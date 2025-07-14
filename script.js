@@ -15,11 +15,11 @@ const cursos = {
   },
   "FIS0154": {
     nombre: "FIS0154 Lab. de Dinámica",
-    prereq: [ ["FIS1514"], ["ICE1514"] ]   // correquisito: cualquiera de ambos
+    prereq: []   // correquisito: cualquiera de ambos
   },
   "FIS1514": {
     nombre: "FIS1514 Dinámica",
-    prereq: [ ["FIS0154","MAT1610"] ]      // requiere ambos
+    prereq: [ ["MAT1610"] ]      // requiere ambos
   },
   "ICE1514": {
     nombre: "ICE1514 Dinámica",
