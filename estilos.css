@@ -40,8 +40,8 @@ h1 {
 .curso button {
   width: 100%;
   padding: 10px;
-  background: #ffb3d9;
-  color: #ff58ab;
+  background: #ff7f98;
+  color: #e83e5f;
   border: 2px solid #d6336c;
   border-radius: 8px;
   font-weight: bold;
@@ -65,8 +65,8 @@ h1 {
 }
 
 .curso button.aprobado {
-  background: #b266ff /* morado */
-  color: #800080;
+  background: #bf7bc4; /* Morado claro */
+  color: #832989; /* Letras morado oscuro */
   text-decoration: line-through;
 }
 
