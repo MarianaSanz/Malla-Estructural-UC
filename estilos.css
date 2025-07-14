@@ -40,7 +40,8 @@ h1 {
 .curso button {
   width: 100%;
   padding: 10px;
-  background: linear-gradient(135deg, #ffb3d9, #ff66b2);
+  background: #ffb3d9;
+  color: #ff58ab;
   border: 2px solid #d6336c;
   border-radius: 8px;
   font-weight: bold;
@@ -64,9 +65,9 @@ h1 {
 }
 
 .curso button.aprobado {
-  background: linear-gradient(135deg, #800080, #b266ff); /* morado con degradé */
-  color: white;
-  text-decoration: none;
+  background: #b266ff /* morado */
+  color: #800080;
+  text-decoration: line-through;
 }
 
 .curso button:disabled {
