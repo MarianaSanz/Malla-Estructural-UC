@@ -213,8 +213,8 @@ const cursos = {
 // ————————————————————————————————
 const semestres = {
   "1° Semestre":      ["MAT1610","QIM100E","MAT1203","ING1004","FIL2001"],
-  "2° Semestre":     ["MAT1620","FIS1514","ICE1514","FIS0154","IIC1103","OptBioI","OptMajI","FTI","PRI"],
-  "3° Semestre":    ["MAT1630","FIS1523","IIQ1003","ICM1003","IIQ103H","FIS0152","MAT1640","OptBioII","OptMajII","FGEco"],
+  "2° Semestre":     ["MAT1620","FIS1514","FIS0154","IIC1103","OptBioI","FTI","PRI"],
+  "3° Semestre":    ["MAT1630","FIS1523","FIS0152","MAT1640","OptMajII","FGEco"],
   "4° Semestre":     ["ICS1513","FIS1533","FIS0153","ICE2006","ICC2105","FGHumII"],
   "5° Semestre":      ["ICE2313","EYP1113","ING2030","OptFund","INVPre","FGSalud","ExComp"],
   "6° Semestre":     ["ICE2114","ICE2604","ICE2413","ICH1104","FGSocIII"],
