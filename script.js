@@ -18,16 +18,11 @@ const cursos = {
     prereq: []   // correquisito: cualquiera de ambos
   },
   "FIS1514": {
-    nombre: "FIS1514 Dinámica",
+    nombre: "FIS1514 ó ICE1514 Dinámica",
     prereq: [ ["MAT1610"] ]      // requiere ambos
   },
-  "ICE1514": {
-    nombre: "ICE1514 Dinámica",
-    prereq: [ ["FIS0154","MAT1610"] ]
-  },
   "IIC1103": { nombre: "IIC1103 Introducción a la Programación", prereq: [] },
-  "OptBioI": { nombre: "Optativo Biológico I", prereq: [] },
-  "OptMajI": { nombre: "Optativo de Exploración Major I", prereq: [] },
+  "OptBioI": { nombre: "Optativo Biológico", prereq: [] },
   "FTI":    { nombre: "Formación Teológica I", prereq: [] },
   "PRI":    { nombre: "Práctica I", prereq: [] },
 
@@ -38,15 +33,10 @@ const cursos = {
   },
   "FIS0152": {
     nombre: "FIS0152 Lab. de Termodinámica",
-    prereq: [
-      ["FIS1523"],["IIQ1003"],["ICM1003"],["IIQ103H"]
-    ]  // correquisitos: cualquiera
+    prereq: []  // correquisitos: cualquiera
   },
   // Termodinámicas alternativas:
-  "FIS1523": { nombre: "FIS1523 Termodinámica", prereq: [ ["FIS0152","MAT1630"] ] },
-  "IIQ1003": { nombre: "IIQ1003 Termodinámica", prereq: [ ["FIS0152","MAT1630"] ] },
-  "ICM1003": { nombre: "ICM1003 Termodinámica", prereq: [ ["FIS0152","MAT1630"] ] },
-  "IIQ103H": { nombre: "IIQ103H Termodinámica", prereq: [ ["FIS0152","MAT1630"] ] },
+  "FIS1523": { nombre: "FIS1523 ó IIQ1003 Termodinámica", prereq: [ ["MAT1630"] ] },
 
   "MAT1640": {
     nombre: "MAT1640 Ecuaciones Diferenciales",
@@ -57,8 +47,7 @@ const cursos = {
       ["MAT1126","MAT1216"]
     ]
   },
-  "OptBioII": { nombre: "Optativo Biológico II", prereq: [ ["OptBioI"] ] },
-  "OptMajII": { nombre: "Optativo de Exploración Major II", prereq: [ ["OptMajI"] ] },
+  "OptMajII": { nombre: "Optativo de Exploración Major", prereq: [] },
   "FGEco":    { nombre: "FG Ecología Integral/Sustentabilidad", prereq: [] },
 
   // Segundo año – IV Semestre
